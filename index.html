@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style-animation.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div id="main-container">
+            <div id="lbl-question">
+                DESEJA INICIAR A SESSÃO? <br>
+                Aperte: ENTER
+            </div>
+            <div id="div-entry">
+                <input type="number" id="entry-line">
+            </div>
+            <div id="div-buttons">
+                <table>
+                    <tr>
+                        <td>
+                            <button>Num <br> Lock</button>
+                        </td>
+                        <td>
+                            <button>/</button>
+                        </td>
+                        <td>
+                            <button>*</button>
+                        </td>
+                        <td>
+                            <button>—</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="typeNum(7)">7</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(8)">8</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(9)">9</button>
+                        </td>
+                        <td rowspan="2">
+                            <button>+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="typeNum(4)">4</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(5)">5</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(6)">6</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="typeNum(1)">1</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(2)">2</button>
+                        </td>
+                        <td>
+                            <button onclick="typeNum(3)">3</button>
+                        </td>
+                        <td rowspan="2">
+                            <button onclick="enter()">Enter</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button onclick="typeNum(0)">0</button>
+                        </td>
+                        <td>
+                            <button>,</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
