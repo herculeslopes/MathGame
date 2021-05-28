@@ -1,0 +1,5 @@
+#div-buttons td button:active  {
+    background-color: #151425;
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+  }
